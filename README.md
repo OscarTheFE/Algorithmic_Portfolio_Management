@@ -5,5 +5,6 @@ This is the note to the Algorithmic Portfolio Management course by Prof. Pawlows
 
 ### Case 1: Stock and Bond Portfolio With Fixed Dollar Ratio
 Construct an elementary portfolio with stock(VTI) and bond(IEF) with fixed ratio, 0.4 and 0.6 in this case. The rebalancing strategy to fix dollar ratio of two assets outperforms static stock and bond portfolio with better sharpe ratio, and risk-return tradeoff. 
-![Stock_Bond_FixedDollarRatio](https://user-images.githubusercontent.com/83149091/149587467-16edaee9-fe27-41a9-88a8-6f1114f18b23.png)
+
+![Stock_Bond_FixedDollarRatio](https://user-images.githubusercontent.com/83149091/149589142-8b4e3121-fb9e-4bf4-8756-ddcdb03bfe82.png)
 ### Case 2:
