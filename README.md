@@ -3,8 +3,11 @@ This is the note to the Algorithmic Portfolio Management course by Prof. Pawlows
 ## Following are some interesting strategies worth mentioning
 
 
-### Case 1: Stock and Bond Portfolio With Fixed Dollar Ratio
-Construct an elementary portfolio with stock(VTI) and bond(IEF) with fixed ratio, 0.4 and 0.6 in this case. The rebalancing strategy to fix dollar ratio of two assets outperforms static stock and bond portfolio with better sharpe ratio, and risk-return tradeoff. 
+### Case 1: Stock and Bond Portfolio With Risk Parity Strategy
+Construct a portfolio with stock(VTI) and bond(IEF) and backtest the *risk parity strategy* performance. It has higher Sharpe ratio due to higher weight to bond but lower absolute returns. Risk Parity strategy works better for assets with low correlation and very different volatilities.
+Moreover, this strategy works well to time market i.e. sell when prices are about to drop and buy when prices are about to rise. 
 
-![Stock_Bond_FixedDollarRatio](https://user-images.githubusercontent.com/83149091/149589142-8b4e3121-fb9e-4bf4-8756-ddcdb03bfe82.png)
+![Risk_Parity](https://user-images.githubusercontent.com/83149091/149602338-07957e57-4288-4a3c-a46a-d29984425093.png)
+![Risk_Parity_Timing](https://user-images.githubusercontent.com/83149091/149602297-dbc7019f-817f-4f9b-b98f-c56050f49a51.png)
+
 ### Case 2:
