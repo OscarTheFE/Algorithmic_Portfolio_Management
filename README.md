@@ -19,3 +19,15 @@ In terms of trend following strategies, VWAP is often used as an indicator. If t
 Even though the VWAP strategy underperform static buy-and-hold strategy, it can provide risk reduction when combined with it. In addition, the VWAP strategy performs well in periods of extreme market sell-off like in 2008, so it can provide a hedge for static buy-and-hold strategy. In other words, the VWAP strategy serves as a dynamic put options in extreme market sell-off.
 
 ![VWAP+Stock](https://user-images.githubusercontent.com/83149091/150043625-92a19c1b-0034-4152-8cd8-14cc442d1896.png)
+
+### Case 3: Momentum Strategy
+Separating in-sample and out-of-sample data to determine the optimal assets' weights. The out-of-sample momentum strategy returns can be calculated by multiplying "future" returns by the forecast ETF portfolio weights. 
+![Momentum](https://user-images.githubusercontent.com/83149091/150050926-8764ff0e-4090-4732-a4ad-a2e7a7adc6b8.png)
+
+In momentum strategies, the portfolio weights are adjusted over time to be proportional to the past performance of the assets. 
+![Momentum_weight](https://user-images.githubusercontent.com/83149091/150051094-be37859c-f084-4c30-901e-5b82b98f1ca2.png)
+
+
+![Momentum_Plus_AW](https://user-images.githubusercontent.com/83149091/150051127-ded9a8c5-07c0-4fc6-b592-55b414a01266.png)
+Despite the momentum strategy has attractive returns compared to static buy-and-hold strategy, it suffers after sudden market selloff like the red line in graph above shows after 2008. If we combine the momentum strategy with static buy-and-hold strategy, we can achieve risk diversified momentum strategy.  
+![Momentum_Plus_AW](https://user-images.githubusercontent.com/83149091/150051452-24f686db-c5e5-48a5-a855-5fa2a90f7eef.png)
