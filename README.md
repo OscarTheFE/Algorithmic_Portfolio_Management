@@ -28,5 +28,5 @@ In momentum strategies, the portfolio weights are adjusted over time to be propo
 ![Momentum_weight](https://user-images.githubusercontent.com/83149091/150051094-be37859c-f084-4c30-901e-5b82b98f1ca2.png)
 
 
-Despite the momentum strategy has attractive returns compared to static buy-and-hold strategy, it suffers after sudden market selloff like the red line in graph above shows after 2008. If we combine the momentum strategy with static buy-and-hold strategy, we can achieve risk diversified momentum strategy.  
+Despite the momentum strategy has attractive returns compared to static buy-and-hold strategy, it suffers after sudden market selloff like the red line in graph above shows after 2008. If we combine the momentum strategy with static buy-and-hold strategy, we can achieve risk diversified momentum strategy. Naturally, we compute the Sharpe ratio of the three portfolio and their correlation matrix. It is verified that momentum strategy has negative correlation to buy-and-hold strategy and combined portfolio has the highest Sharpe Ratio while the others have approximate Sharpe Ratio. 
 ![Momentum_Plus_AW](https://user-images.githubusercontent.com/83149091/150051452-24f686db-c5e5-48a5-a855-5fa2a90f7eef.png)
