@@ -28,6 +28,5 @@ In momentum strategies, the portfolio weights are adjusted over time to be propo
 ![Momentum_weight](https://user-images.githubusercontent.com/83149091/150051094-be37859c-f084-4c30-901e-5b82b98f1ca2.png)
 
 
-![Momentum_Plus_AW](https://user-images.githubusercontent.com/83149091/150051127-ded9a8c5-07c0-4fc6-b592-55b414a01266.png)
 Despite the momentum strategy has attractive returns compared to static buy-and-hold strategy, it suffers after sudden market selloff like the red line in graph above shows after 2008. If we combine the momentum strategy with static buy-and-hold strategy, we can achieve risk diversified momentum strategy.  
 ![Momentum_Plus_AW](https://user-images.githubusercontent.com/83149091/150051452-24f686db-c5e5-48a5-a855-5fa2a90f7eef.png)
